@@ -1,0 +1,22 @@
+### Get all books
+GET http://localhost:3000/books
+
+### Add new book
+POST http://localhost:3000/books
+Content-Type: application/json
+
+{
+  "title": "Wings of Fire",
+  "author": "Abdul Kalam"
+}
+
+### Update book by ID
+PUT http://localhost:3000/books/1
+Content-Type: application/json
+
+{
+  "title": "Updated Title"
+}
+
+### Delete book by ID
+DELETE http://localhost:3000/books/3
